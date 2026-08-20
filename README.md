@@ -1,7 +1,5 @@
 # Animus Core Engine 🛡️
 
-![Animus Banner](https://raw.githubusercontent.com/your-username/animus-core/main/assets/banner.png)
-
 > **Autonomous AI-Driven DFIR & Threat Intelligence Orchestration Platform**
 
 Animus is an enterprise-grade cybersecurity engine designed to automate digital forensics, high-throughput threat hunting, and digital telemetry analysis. By integrating machine learning models into incident response pipelines, Animus drastically reduces **Mean Time to Detect (MTTD)** and **Mean Time to Respond (MTTR)** for modern Security Operations Centers (SOCs).

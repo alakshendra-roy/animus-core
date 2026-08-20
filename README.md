@@ -25,3 +25,18 @@ Animus is an enterprise-grade cybersecurity engine designed to automate digital 
 ---
 
 ## 🚀 System Architecture
+```text
+[ Endpoint / Telemetry Logs ] ---> ( Ingestion Engine: ingest_engine.py )
+                                               |
+                                               v
+                                   ( Kernel & Memory Parser )
+                                     forensics_parser.py
+                                               |
+                                               v
+                                    ( Threat Intelligence )
+                                       threat_agent.py
+                                               |
+                                               v
+[ Autonomous Mitigation ] <--- ( SOAR Orchestration Engine )
+                                     soar_orchestrator.py
+
